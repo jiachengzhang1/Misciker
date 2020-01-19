@@ -9,14 +9,14 @@ Setup:
 2. Create a Python virtual environment
 `python3 -m `
 
-3. Install APIs and Libraries
-install google cloud speech API
-`pip install --upgrade google-cloud-speech`
+3. Install APIs and Libraries<br/>
+install google cloud speech API<br/>
+`pip install --upgrade google-cloud-speech`<br/>
 
-google cloud text to speech API
-`pip install --upgrade google-cloud-texttospeech`
+google cloud text to speech API<br/>
+`pip install --upgrade google-cloud-texttospeech`<br/>
 
-pyaudio libraries
-`pip install PyAudio`
-`pip install playsound`
-`pip install pyobjc`
+pyaudio libraries<br/>
+`pip install PyAudio`<br/>
+`pip install playsound`<br/>
+`pip install pyobjc`<br/>
