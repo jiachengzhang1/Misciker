@@ -43,9 +43,7 @@ https://developers.google.com/maps/documentation/distance-matrix/start?hl=en_US
 2. Activation
 `source /path/to/new/virtual/environment/bin/activate`
 
-3. Clone the project to the virtual environment
-
-4. Install APIs and Libraries<br/>
+3. Install APIs and Libraries<br/>
 install google cloud speech API<br/>
 `pip install --upgrade google-cloud-speech`<br/><br/>
 google cloud text to speech API<br/>
@@ -55,6 +53,8 @@ pyaudio libraries<br/>
 `pip install pyaudio`<br/>
 `pip install playsound`<br/>
 `pip install pyobjc`<br/>
+
+4. Clone the project to the virtual environment
 
 5. Run the Application
 `python launch.py`<br/>
