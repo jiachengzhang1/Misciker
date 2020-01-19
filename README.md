@@ -1,6 +1,6 @@
 # Misciker
 
-### Description:
+### Description
 This is a Morning Sanity Checker! <br/>
 Misciker (Morning Sanity Checker) is an app that utilizes Google Clouds Voice API's and Map Matrix API 
 to inform you of your morning commute time to work and prevents you from forgetting
@@ -23,9 +23,19 @@ Hello Google, I would like to take my iPhone, water bottle, backpack, sunglasses
 Then the Misciker will tell you which items are missing based on your configured morning check list and your voice command.
 
 ### Google Cloud Setup
+Make sure you have a Google Cloud account created APIs enabled, see details in the links below,<br/>
 
-### Setup and Run (For Mac users):
+##### Speech to text API:
+https://cloud.google.com/speech-to-text/docs/
 
+##### Text to speech API:
+https://cloud.google.com/text-to-speech/docs/
+
+##### Distance Matrix API:
+https://developers.google.com/maps/documentation/distance-matrix/start?hl=en_US
+
+
+### Setup and Run (For Mac users)
 1. Create a Python virtual environment
 `python3 -m venv /path/to/new/virtual/environment`
 
@@ -43,7 +53,6 @@ pyaudio libraries<br/>
 `pip install PyAudio`<br/>
 `pip install playsound`<br/>
 `pip install pyobjc`<br/>
-<br/><br/>
 
 5. Run the Application
 `python launch.py`
