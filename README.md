@@ -51,7 +51,7 @@ install google cloud speech API<br/>
 google cloud text to speech API<br/>
 `pip install --upgrade google-cloud-texttospeech`<br/><br/>
 pyaudio libraries<br/>
-`brew install portaudio`
+`brew install portaudio`<br/>
 `pip install pyaudio`<br/>
 `pip install playsound`<br/>
 `pip install pyobjc`<br/>
