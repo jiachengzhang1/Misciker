@@ -1,7 +1,8 @@
 # Misciker
 
 ### Description
-This is a Morning Sanity Checker! <br/>
+This is a Morning Sanity Checker!
+
 Misciker (Morning Sanity Checker) is an app that utilizes Google Clouds Voice API's and Map Matrix API 
 to inform you of your morning commute time to work and prevents you from forgetting
 your daily items that you take for that day. 
