@@ -19,7 +19,7 @@ def sentense_converter(not_forget_this_time, keywords, badFound, user_name):
             output += keyword + ', '
 
         if badFound:
-            output += 'you dumb!'
+            output = 'Wow, wow, chill ' + user_name + ', you don\'t have to treat me like that, I\'m here to help. Anyway, ' + user_name + ', ' + output + '. By the way, I\'m calling your mom for that!'
 
     if not_forget_message == '':
             return output

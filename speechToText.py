@@ -153,7 +153,7 @@ def listen_respond_loop(responses, check_list, user_name, language_code, gender,
             # Exit recognition if any of the transcribed phrases could be
             # one of our keywords.
             if transcript.lower().find('hello google') != -1 and re.search(r'\b(missing|missed)\b', transcript.lower(), re.I):
-                forgottenItems, badFound = findKeyword(output, ['freaking', 'stupid'], check_list)
+                forgottenItems, badFound = findKeyword(output, ['freak', 'stupid', 'fuck', 'dumb'], check_list)
 
                 # reset not_forget_this_time
                 not_forget_this_time = []

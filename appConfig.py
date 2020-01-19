@@ -68,6 +68,7 @@ def getConfig():
         text_to_speech("Hello, I am your morning sanity checker, Misciker. I'm here in case you forget something. Let's get started with some settings.", language_code, gender)
         text_to_speech("What's your name?", language_code, gender)
         transcript = listen(responses)
+        # transcript = input("a")
         user_name = transcript.lower().split()[-1]
         print(user_name)
         text_to_speech("Nice to meet you, " + user_name + 
@@ -79,14 +80,15 @@ def getConfig():
         count = 0
         while language_code == '':
             transcript = listen(responses)
+            # transcript = input("a")
             accent = transcript.lower()
             if accent.find('british') != -1:
                 language_code = 'en-gb'
-            elif accent.find('america') != -1:
+            elif accent.lower().find('america') != -1:
                 language_code = 'en-us'
-            elif accent.find('india') != -1:
+            elif accent.lower().find('india') != -1:
                 language_code = 'en-in'
-            elif accent.find('austrilia') != -1:
+            elif accent.lower().find('austrilia') != -1:
                 language_code = 'en-au'
             else:
                 if count == 2:
@@ -102,10 +104,11 @@ def getConfig():
         count = 0
         while gender == '':
             transcript = listen(responses)
+            # transcript = input("a")
             gender_string = transcript.lower()
-            if gender_string.lower().find('female'):
+            if gender_string.lower().find('female') != -1:
                 gender = 'F'
-            elif gender_string.lower().find('male'):
+            elif gender_string.lower().find('male') != -1:
                 gender = 'M'
             else:
                 if count == 2:
