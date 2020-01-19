@@ -24,7 +24,7 @@ Hello Google, I would like to take my iPhone, water bottle, backpack, sunglasses
 Then the Misciker will tell you which items are missing based on your configured morning check list and your voice command.
 
 ### Google Cloud Setup
-Make sure you have a Google Cloud account created APIs enabled, see details in the links below,<br/>
+Make sure you have a Google Cloud account created, a project created, credential downloaded and APIs of the porject enabled. Followings are APIs used in the project,<br/>
 
 ##### Speech to text API:
 https://cloud.google.com/speech-to-text/docs/
@@ -59,11 +59,13 @@ pyaudio libraries<br/>
 5. Run the Application
 `python launch.py`<br/>
 
-Note: If you run into local certification issue caused by `response = urllib.request.urlopen(url)`, you may need to do following steps,<br/><br/>
+Note 1: If you run into local certification issue caused by `response = urllib.request.urlopen(url)`, you may need to do following steps,<br/><br/>
 Download Python from https://www.python.org/downloads/ <br/><br/>
 Go to the Python folder under `/Applications/`<br/><br/>
 Open <br/>
 `Install Certificates.command`<br/>
 `Update Shell Profile.command`<br/><br/>
-Deactivate old python virtual enviroment, and create a new one(repeat steps 1 to 5 above)
+Deactivate old python virtual enviroment, and create a new one(repeat steps 1 to 5 above).
+
+Note 2: You may want to uncomment the line in `launch.py` and change the json file to your own's. Make sure your credential and `launch.py` are in the same folder.
 
