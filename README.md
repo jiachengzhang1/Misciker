@@ -57,4 +57,12 @@ pyaudio libraries<br/>
 `pip install pyobjc`<br/>
 
 5. Run the Application
-`python launch.py`
+`python launch.py`<br/>
+
+Note: If you run into local certification issue caused by `response = urllib.request.urlopen(url)`, you may need to do following steps,<br/>
+Download Python from https://www.python.org/downloads/ <br/>
+Go to the Python folder under `/Applications/`<br/>
+Open `Install Certificates.command`<br/>
+     `Update Shell Profile.command`<br/>
+Deactivate old python virtual enviroment, and create a new one(repeat steps below)
+
