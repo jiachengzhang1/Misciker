@@ -62,7 +62,8 @@ pyaudio libraries<br/>
 Note: If you run into local certification issue caused by `response = urllib.request.urlopen(url)`, you may need to do following steps,<br/><br/>
 Download Python from https://www.python.org/downloads/ <br/><br/>
 Go to the Python folder under `/Applications/`<br/><br/>
-Open `Install Certificates.command`<br/><br/>
-     `Update Shell Profile.command`<br/><br/>
+Open <br/>
+`Install Certificates.command`<br/>
+`Update Shell Profile.command`<br/><br/>
 Deactivate old python virtual enviroment, and create a new one(repeat steps 1 to 5 above)
 
