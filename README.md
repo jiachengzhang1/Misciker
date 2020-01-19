@@ -22,5 +22,7 @@ pyaudio libraries<br/>
 `pip install playsound`<br/>
 `pip install pyobjc`<br/>
 <br/><br/>
+
+
 Run the Application
 `python launch.py`
